@@ -27,8 +27,7 @@ const Home: React.FC = () => {
   }
 
   useEffect(() => {
-    let finalOutPut = caluclate(functionBlocks, x);
-    setY(finalOutPut);
+    setY(caluclate(functionBlocks, x));
   })
 
   return (
