@@ -1,4 +1,4 @@
-import { indexDependencies, parse } from "mathjs";
+import { parse } from "mathjs";
 import { Block } from "../components/FunctionalBlock";
 
 export const caluclate = (arr: Block[], x: number) => {
